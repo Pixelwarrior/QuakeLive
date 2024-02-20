@@ -18,7 +18,7 @@ def load_stats():
 def main():
     print("Quake Live Duel timings")
     correct, incorrect = load_stats()
-    print("=== Previous Stats ===")
+    print("=== Last session Stats ===")
     print("Total Correct Answers:", correct)
     print("Total Incorrect Answers:", incorrect)
     mode = int(input("[1] : Red | [2] : Mega - "))
